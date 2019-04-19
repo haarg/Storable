@@ -8,9 +8,9 @@
 #  in the README file that comes with the distribution.
 #
 
+package Storable;
 BEGIN { require XSLoader }
 require Exporter;
-package Storable;
 
 our @ISA = qw(Exporter);
 our @EXPORT = qw(store retrieve);

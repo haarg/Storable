@@ -20,15 +20,15 @@ WriteMakefile(
 #    PREREQ_PM           => { 'Test::More' => '0.41' },
     PREREQ_PM           => { XSLoader => 0 },
     INSTALLDIRS => ($] >= 5.007 && $] < 5.012) ? 'perl' : 'site',
-    VERSION_FROM    => 'Storable.pm',
-    ABSTRACT_FROM   => 'Storable.pm',
+    VERSION_FROM    => 'lib/Storable.pm',
+    ABSTRACT_FROM   => 'lib/Storable.pm',
     ($ExtUtils::MakeMaker::VERSION > 6.45 ?
      (META_MERGE        => { resources =>
                                { bugtracker => 'http://rt.perl.org/perlbug/' },
                             provides    => {
                                 'Storable'  => {
-                                    file        => 'Storable.pm',
-                                    version     => MM->parse_version('Storable.pm'),
+                                    file        => 'lib/Storable.pm',
+                                    version     => MM->parse_version('lib/Storable.pm'),
                                 },
                             },
 
