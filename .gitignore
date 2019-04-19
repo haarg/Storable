@@ -1,0 +1,17 @@
+*#
+*.bs
+*.c
+*.o
+*~
+.#*
+/MANIFEST.bak
+/MYMETA.*
+/Makefile
+/Makefile.old
+/Storable-*.tar
+/Storable-*.tar.gz
+/Storable-*/
+/_eumm/
+/blib/
+/cover_db/
+/pm_to_blib
